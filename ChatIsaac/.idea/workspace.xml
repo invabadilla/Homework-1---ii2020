@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b9bb671-3173-408e-87ba-84109caf0046" name="Default Changelist" comment="Creacion del chat, la interfaz y la comunicacion">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatIsaac.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServidorChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json2.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hwKCQfusGAMQZo8OzRIqIAqPqA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chat" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JSON" />
+      <module name="Chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="json2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="json2" />
+      <module name="Chat" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.JSON" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.json2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.json2" />
+        <item itemvalue="Application.json2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b9bb671-3173-408e-87ba-84109caf0046" name="Default Changelist" comment="" />
+      <created>1600916586764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600916586764</updated>
+      <workItem from="1600916589723" duration="58050000" />
+      <workItem from="1601055713595" duration="528000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creacion del chat, la interfaz y la comunicacion">
+      <created>1601055973082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601055973082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creacion del chat, la interfaz y la comunicacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creacion del chat, la interfaz y la comunicacion" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="705" y="0" width="830" height="824" key="#Project_Structure" timestamp="1600923711277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="705" y="0" width="830" height="824" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1600923711277" />
+    <state x="447" y="5" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600969417400">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="5" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1600969417400" />
+    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1601054775386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601054775386" />
+    <state x="722" y="140" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600963043654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="722" y="140" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1600963043654" />
+    <state x="902" y="106" key="FileChooserDialogImpl" timestamp="1601056243894">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="902" y="106" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601056243894" />
+    <state width="1493" height="91" key="GridCell.Tab.0.bottom" timestamp="1601056245072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="91" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601056245072" />
+    <state width="1493" height="91" key="GridCell.Tab.0.center" timestamp="1601056245072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="91" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601056245072" />
+    <state width="1493" height="91" key="GridCell.Tab.0.left" timestamp="1601056245072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="91" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601056245072" />
+    <state width="1493" height="91" key="GridCell.Tab.0.right" timestamp="1601056245072">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="91" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601056245072" />
+    <state x="349" y="155" key="IDE.errors.dialog" timestamp="1601056069634">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1601056069634" />
+    <state x="792" y="117" key="NewModule_or_Project.wizard" timestamp="1600923700392">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="792" y="117" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1600923700392" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601055989701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601055989701" />
+    <state x="499" y="173" key="extract.method.dialog" timestamp="1601006384219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="173" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1601006384219" />
+    <state x="418" y="33" key="new project wizard" timestamp="1600923608530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="418" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600923608530" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601043975938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601043975938" />
+  </component>
+</project>
