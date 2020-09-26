@@ -4,10 +4,21 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import org.json.simple.JSONObject;
 
+/**
+ * Clase que implementa el servidor para la recepcion de mensajes
+ * @author Ingrid Vargas
+ *
+ */
+
 public class ServidorChat implements Runnable {
 
-    public void start(int puerto) {
+    /**
+     * Creacion del socket y lectura de los paquetes entrantes
+     * @param puerto Puerto con el que se crea el socket
+     *
+     */
 
+    public void start(int puerto) {
 
         try {
 
@@ -23,7 +34,6 @@ public class ServidorChat implements Runnable {
 
                 data = (JSONObject) inData.readObject();
 
-
                 Object receiver;
                 Object sender;
                 String message;
@@ -37,7 +47,6 @@ public class ServidorChat implements Runnable {
 
                 int num2;
                 num2 = (int) receiver;
-
 
 
                 String antes, despues;
@@ -61,7 +70,7 @@ public class ServidorChat implements Runnable {
                         Main.auxPort = num1;
 
                         NewChat nuevo = new NewChat();
-                        nuevo.NewChat(Main.auxPort);
+                        nuevo.NewChat(num1);
 
                     }
 
@@ -91,7 +100,7 @@ public class ServidorChat implements Runnable {
             this.start(Main.userPort);
         } catch (Exception e) {
             Main.userPort = (int) Math.floor(Math.random() * (9000 - 6000 + 1) + 6000);
-        }
+        }//Asignacion del puerto
 
     }
 }

@@ -10,9 +10,15 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
+/**
+ * Clase para la construccion del chat
+ * @author Ingrid Vargas
+ *
+ */
+
+
 public class Main {
     static int userPort = (int) Math.floor(Math.random() * (9000 - 6000 + 1) + 6000);
-    static String name, puerto;
     static int reciverPort, auxPort;
     static String message;
     static JSONObject messageDB = new JSONObject();
@@ -21,11 +27,13 @@ public class Main {
     static JPanel rightPanel = new JPanel();
     static JTextArea chatArea;
 
-    public static String getMessage() {
-        return message;
-    }
+    /**
+     * Creacion de los componentes de la interfaz para la aplicacion
+     *
+     */
 
     public static void main(String[] args) {
+
 
         Runnable server = new ServidorChat();
         Thread serverThread = new Thread(server);
@@ -54,6 +62,7 @@ public class Main {
         leftPanel.add(newChat);
 
         JTextField contacto = new JTextField(5);
+        contacto.setText("1");
         leftPanel.add(contacto);
 
         JButton chat = new JButton("Crear");
@@ -61,15 +70,7 @@ public class Main {
 
 
         createChat myevent = new createChat();
-
         chat.addActionListener(myevent);
-
-
-
-        JScrollPane contactsScroll = new JScrollPane(leftPanel);
-        //contactsScroll.setViewportView(leftPanel);
-
-        contactsScroll.setVisible(true);
 
 
         JLabel id = new JLabel("        Mi puerto: " + String.valueOf(userPort) + "            ");
@@ -106,7 +107,6 @@ public class Main {
         screen.setVisible(true);
 
 
-
         while (true) {
 
             try {
@@ -117,16 +117,17 @@ public class Main {
                 leftPanel.updateUI();
                 rightPanel.updateUI();
 
-
             }catch (java.lang.NumberFormatException e){
 
             }
-
-
         }
-
     }
 }
+
+/**
+ * Clase para enviar el texto cuando se accione el boton de "Enviar"
+ *
+ */
 
 class sendText implements ActionListener {
 
@@ -136,7 +137,6 @@ class sendText implements ActionListener {
 
         JSONObject outputPackage = new JSONObject();
         String antes, despues;
-
 
         outputPackage.put("from", Main.userPort);
         outputPackage.put("to", Main.reciverPort);
@@ -150,7 +150,6 @@ class sendText implements ActionListener {
 
             exitData.writeObject(outputPackage);
 
-            System.out.println(outputPackage);
 
             if (Main.userPort != Main.reciverPort) {
 
@@ -164,7 +163,6 @@ class sendText implements ActionListener {
 
                     Main.messageDB.put(Main.reciverPort, despues);
 
-
                 } else {
                     despues = "Yo: " + Main.message;
                     Main.messageDB.put(Main.reciverPort, despues);
@@ -177,8 +175,6 @@ class sendText implements ActionListener {
         }catch (IOException ioException) {
             System.out.println(ioException.getMessage());
         }
-        System.out.println(Main.reciverPort);
-        System.out.println(Main.messageDB.get(Main.reciverPort));
 
         Main.chatArea.setText("");
         Main.chatArea.append((String) Main.messageDB.get(Main.reciverPort));
@@ -187,8 +183,13 @@ class sendText implements ActionListener {
     }
 }
 
-class createChat implements ActionListener{
+/**
+ * Clase para llamar al constructor de los botones para los chats
+ * cuando se accione el boton de "Crear"
+ *
+ */
 
+class createChat implements ActionListener{
 
     @Override
     public void actionPerformed(ActionEvent e) {
